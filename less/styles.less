@@ -1,0 +1,88 @@
+/*
+	Fichier de styles principal du site
+ */
+
+/* Import des classes de base fournies par HTML5Boilerplate */
+@import (inline) "../css/base.css";
+
+/* Import des utilitaires fournis par HTML5Boilerplate */
+@import (inline) "../css/helper.css";
+
+/* Import des polices du theme */
+@import "fonts";
+@import "parametres";
+
+/* Mixin pour tester le box model */
+#bordure {
+	border: 1px solid red;
+}
+
+#decalage_gauche(@numero) {
+	position: relative;
+	@height: ((90% + 2*@barre-laterale-espace-inter-li + (@numero - 1) * @barre-laterale-espace-inter-li + @barre-laterale-distance-bord-droit) * @barre-laterale-width * 100 / 10000) + 1;
+	@decalage: unit(-(1400/7500) * @height,vw);
+	left: @decalage;
+}
+
+html {
+	background-color: @bleu-pale;
+	font-size: @font-size;
+	padding: 0;
+	margin: 0;
+}
+
+#nav-principale {
+	padding: 0;
+	margin: 0;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: @barre-laterale-width;
+	height: 100%;
+	background-image: url(../img/layout/barre.svg);
+	background-position: 0px -1vw;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-origin: border-box;
+	#logo {
+		width: 90%;
+		padding: 0;
+		margin: 0;
+	}
+	ul {
+		text-align: right;
+		margin: 0;
+		padding: 0;
+		:first-child {
+			margin-top: 2 * @barre-laterale-espace-inter-li;
+		} 
+		li {
+			list-style-type: none;
+			margin-bottom: @barre-laterale-espace-inter-li;
+			a {
+				color: @blanc-casse;
+				text-decoration: none;
+				font-family: 'Open Sans SemiBold';
+				font-size: @barre-laterale-font-size;
+			}
+		}
+		#accueil a {
+			#decalage_gauche(1);
+		}
+		#activites a {
+			#decalage_gauche(2);
+		}
+		#depannage a {
+			#decalage_gauche(3);
+		}
+		#rejoindre a {
+			#decalage_gauche(4);
+		}
+	}
+}
+
+main {
+	position: absolute;
+	top: 100px;
+	left: 300px;
+}

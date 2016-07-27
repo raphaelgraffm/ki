@@ -1,4 +1,5 @@
 #!/bin/bash 
+./lessify.sh
 
 # Envoie sur GitHub
 git add *
