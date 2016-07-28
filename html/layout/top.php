@@ -22,7 +22,7 @@
 
     <!-- Navigation principale -->
     <nav id="nav-principale">
-        <img id="logo" src="/ki/img/layout/logo.svg"/>
+        <div id="logo"></div>
         <ul>
             <li id="accueil"><a href="#">Accueil</a></li>
             <li id="activites"><a href="#">Activités</a></li>
@@ -30,5 +30,12 @@
             <li id="rejoindre"><a href="#">Rejoindre le KI</a></li>
         </ul>
     </nav>
+    <nav id="nav-activites" class="nav-secondaire">
+        <ul>
+            <li id="formations"><a href="#">Formations</a></li>
+            <li id="lan"><a href="#">LAN</a></li>
+            <li id="upont"><a href="#">uPont</a></li>
+        </ul>
+    </nav>
 
-    <main>
+    <main class="hidden">
