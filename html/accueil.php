@@ -1,4 +1,4 @@
-<h1>Un club qui envoie du LOURD</h1>
+<h1 class="titre"><span class="fox">Un club qui envoie du </span><span class="orange">LOURD</span></h1>
 
 <p> Animée par l'envie de servir son prochain tout en étant à la pointe des nouvelles technologies,
 l'équipe du Club Informatique des Ponts et Chaussées (KI) prête une oreille attentive 

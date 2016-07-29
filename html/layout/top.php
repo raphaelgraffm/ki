@@ -30,7 +30,7 @@
             <li id="rejoindre"><a href="#">Rejoindre le KI</a></li>
         </ul>
     </nav>
-    <nav id="nav-activites" class="nav-secondaire">
+    <nav id="nav-activites" class="nav-secondaire invisible">
         <ul>
             <li id="formations"><a href="#">Formations</a></li>
             <li id="lan"><a href="#">LAN</a></li>
@@ -38,4 +38,4 @@
         </ul>
     </nav>
 
-    <main class="hidden">
+    <main class="">
