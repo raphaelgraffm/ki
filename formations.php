@@ -2,7 +2,7 @@
 <?php include 'html/layout/top.php'; ?>
 
 <!-- Contenu de l'accueil -->
-<?php include 'html/index.php'; ?>
+<?php include 'html/formations.php'; ?>
 
 <!-- Inclusion de la partie basse de l'accueil -->
 <?php include 'html/layout/bottom.php'; ?>

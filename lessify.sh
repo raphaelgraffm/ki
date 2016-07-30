@@ -1,4 +1,4 @@
 #!/bin/bash
 
-lessc less/styles.less css/styles.dev.css
+lessc less/large/styles.less css/large/styles.dev.css
 pleeease compile

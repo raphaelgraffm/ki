@@ -1,13 +1,6 @@
-/*
-	Fichier de styles principal du site
- */
-
-/* Import des classes de base fournies par HTML5Boilerplate */
-@import (inline) "../css/base.css";
-
-/* Import des polices du theme */
-@import "fonts";
-@import "parametres";
+/* Import du theme de base */
+@import "../base";
+@import "parametres-large";
 
 /* Mixin pour tester le box model */
 #bordure {
@@ -41,14 +34,14 @@ html {
 	left: 0px;
 	width: unit(@barre-laterale-width,vw);
 	height: 100%;
-	background-image: url(../img/layout/barre.svg);
+	background-image: url(../../img/layout/barre.svg);
 	background-position: 0px -1vw;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-origin: border-box;
 	z-index: 1;
 	#logo {
-		background-image: url(../img/layout/logo.svg);
+		background-image: url(../../img/layout/logo.svg);
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: @logo-size;
@@ -102,7 +95,7 @@ html {
 	transition: left 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
 	width: unit(2 * @barre-laterale-width,vw);
 	height: 100%;
-	background-image: url(../img/layout/barre_secondaire.svg);
+	background-image: url(../../img/layout/barre_secondaire.svg);
 	background-position: 0px -10vw;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -146,7 +139,7 @@ html {
 	}
 }
 
-.deployed {
+.deployed-two {
 	left: unit(@barre-secondaire-width - @barre-laterale-width,vw);
 }
 
@@ -164,9 +157,11 @@ main {
 	left: unit(@barre-laterale-width,vw);
 	transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
 	color: @bleu-principal;
+	line-height: @line-height;
+	font-size: @p-size;
 }
 
-.main-deployed {
+.main-deployed-two {
 	left: unit(@barre-laterale-width + 0.7 * @barre-secondaire-width,vw);
 	opacity: @main-opacity-deployed;
 }
@@ -184,5 +179,10 @@ h1.titre {
 	color: @orange;
 }
 
-/* Import des utilitaires fournis par HTML5Boilerplate */
-@import (inline) "../css/helper.css";
+.page-link {
+	font-family: 'Open Sans Bold';
+}
+
+.cache {
+	opacity: 0;
+}
