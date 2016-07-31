@@ -1,6 +1,8 @@
 function success (data, status, xml) {
 	$('main').fadeOut(400).promise().done( function () {
 		$(window).scrollTop(0);
+		$('#nav-activites').removeClass('deployed-two');		
+		$('main').removeClass('main-deployed-two');			
 		$(this).html(data).fadeIn(400);
 	});
 }
