@@ -333,6 +333,9 @@ html {
   padding: 0;
   margin: 0;
 }
+#navigation a:active {
+  color: #D68847;
+}
 #nav-principale {
   padding: 0;
   margin: 0;
@@ -357,6 +360,13 @@ html {
   height: 18vw;
   padding: 0;
   margin: 0;
+}
+#nav-principale #logo a {
+  display: block;
+  width: 81%;
+  height: 90%;
+  position: relative;
+  margin: 0 auto;
 }
 #nav-principale ul {
   text-align: right;

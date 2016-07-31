@@ -26,6 +26,10 @@ html {
 	margin: 0;
 }
 
+#navigation a:active {
+	color: @orange;
+}
+
 #nav-principale {
 	padding: 0;
 	margin: 0;
@@ -50,6 +54,13 @@ html {
 		height: @dimension;
 		padding: 0;
 		margin: 0;
+		a {
+			display: block;
+			width: 0.9 * @logo-size;
+			height: @logo-size;
+			position: relative;
+			margin: 0 auto;
+		}
 	}
 	ul {
 		text-align: right;
@@ -185,4 +196,4 @@ h1.titre {
 
 .cache {
 	opacity: 0;
-}
+} 
