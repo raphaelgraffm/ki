@@ -31,7 +31,7 @@
             <li id="rejoindre"><a href="rejoindre.php" data-titre="Nous rejoindre - KI">Rejoindre le KI</a></li>
         </ul>
     </nav>
-    <nav id="nav-activites" class="nav-secondaire invisible">
+    <nav id="nav-activites" class="nav-secondaire">
         <ul>
             <li id="formations"><a href="formations.php" data-titre="Nos Formations - KI">Formations</a></li>
             <li id="lan"><a href="lan.php" data-titre="Les LAN - KI">LAN</a></li>

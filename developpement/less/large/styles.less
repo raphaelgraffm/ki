@@ -103,7 +103,6 @@ html {
 	position: fixed;
 	top: 0px;
 	left: unit(-1.05 * @barre-laterale-width,vw);
-	transition: left 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
 	width: unit(2 * @barre-laterale-width,vw);
 	height: 100%;
 	background-image: url(../../img/layout/barre_secondaire.svg);
@@ -150,10 +149,6 @@ html {
 	}
 }
 
-.deployed-two {
-	left: unit(@barre-secondaire-width - @barre-laterale-width,vw);
-}
-
 main {
 	box-sizing: border-box;
 	opacity: 1;
@@ -166,15 +161,9 @@ main {
 	position: absolute;
 	top: 0px;
 	left: unit(@barre-laterale-width,vw);
-	transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
 	color: @bleu-principal;
 	line-height: @line-height;
 	font-size: @p-size;
-}
-
-.main-deployed-two {
-	left: unit(@barre-laterale-width + 0.7 * @barre-secondaire-width,vw);
-	opacity: @main-opacity-deployed;
 }
 
 h1.titre {

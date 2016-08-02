@@ -1,5 +1,5 @@
 #!/bin/bash 
-./lessify.sh
+developpement/scripts/process.sh
 
 # Envoie sur GitHub
 git add *
@@ -7,5 +7,5 @@ git commit
 git pull
 git push
 
-# Recuperation sur le serveur
+# Ouverture du serveur
 ssh root@vps293012.ovh.net
