@@ -1,6 +1,8 @@
 	# jQuery variables
 	$navigation = $('#navigation')
 	$main = $('main')
+	$fond = $('#fond')
+	$window = $(window)
 
 	# Global variables
 	root = exports ? this

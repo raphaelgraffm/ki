@@ -13,7 +13,7 @@
 	$('#navigation').on 'click', 'a', (event) ->
 		event.preventDefault()
 		lien = $(this).attr 'href'
-		History.pushState target: lien, $(this).attr('data-titre'), lien unless lien == '#'
+		History.pushState(target: lien, $(this).attr('data-titre'), lien) unless lien == '#'
 		
 	success = (data, status, xml) ->
 		timeline = new TimelineMax()
