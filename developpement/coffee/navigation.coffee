@@ -28,7 +28,7 @@
 		contenu = $('#principal').html()
 		tm.set $('#principal'), {opacity: 0}
 		tm.call undeploy_two
-		tm.from $('main h1.titre'), 0.6, {scale: 0, ease: Elastic.easeOut.config(0.7,0.4)}
+		tm.from $('main h1.titre'), 0.6, {scale: 0, ease: Elastic.easeOut.config(0.6,0.6)}
 		tm.to $('#principal'), 1, {opacity: 1}
 		activate_navigation()
 		return
