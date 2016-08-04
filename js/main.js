@@ -104,7 +104,7 @@ $(document).ready(function() {
     tm.call(undeploy_two);
     tm.from($('main h1.titre'), 0.6, {
       scale: 0,
-      ease: Elastic.easeOut
+      ease: Elastic.easeOut.config(0.7, 0.4)
     });
     tm.to($('#principal'), 1, {
       opacity: 1
