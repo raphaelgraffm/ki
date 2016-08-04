@@ -3,4 +3,4 @@
 	$navigation.mouseleave(undeploy_two) 
 
 	$window.scroll ->
-		TweenMax.set $fond, { backgroundPosition: "0px #{ -$window.scrollTop() * 0.4 }px" } 
+		TweenMax.set $fond, { backgroundPosition: "0px #{ -$window.scrollTop() * 0.3 }px" } 
