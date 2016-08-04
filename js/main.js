@@ -48,7 +48,7 @@ $(document).ready(function() {
   $navigation.mouseleave(undeploy_two);
   $window.scroll(function() {
     return TweenMax.set($fond, {
-      backgroundPosition: "0px " + (-$window.scrollTop() * 0.3) + "px"
+      backgroundPosition: "0px " + (-$window.scrollTop() * 0.2) + "px"
     });
   });
   History = window.History;
