@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="">
+<html lang="">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -15,29 +15,29 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
+        <div id="fond"></div>
+        <!-- Navigation principale -->
+        <div id="navigation">
+            <nav id="nav-principale">
+                <?php include 'html/layout/logo.php'; ?>
+                <div id="nav-principale-fond"></div>
+                <ul>
+                    <li id="accueil"><a href="index.php" data-titre="Accueil - KI">Accueil</a></li>
+                    <li id="activites"><a href="#">Activités</a></li>
+                    <li id="depannage"><a href="depannage.php" data-titre="Dépannage - KI">Dépannage</a></li>
+                    <li id="rejoindre"><a href="rejoindre.php" data-titre="Nous rejoindre - KI"><span class="orange">Rejoindre le KI</span></a></li>
+                </ul>
+            </nav>
+            <nav id="nav-activites" class="nav-secondaire">
+                <ul>
+                    <li id="formations"><a href="formations.php" data-titre="Nos Formations - KI">Formations</a></li>
+                    <li id="lan"><a href="lan.php" data-titre="Les LAN - KI">LAN</a></li>
+                    <li id="upont"><a href="upont.php" data-titre="La plateforme uPont - KI">uPont</a></li>
+                </ul>
+            </nav>
+        </div>
 
-    <!--[if lt IE 8]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+        <div id="central"></div>
 
-    <!-- Navigation principale -->
-    <div id="navigation">
-    <nav id="nav-principale">
-        <div id="logo"><a href="index.php" data-titre="Accueil - KI"></a></div>
-        <ul>
-            <li id="accueil"><a href="index.php" data-titre="Accueil - KI">Accueil</a></li>
-            <li id="activites"><a href="#">Activités</a></li>
-            <li id="depannage"><a href="depannage.php" data-titre="Dépannage - KI">Dépannage</a></li>
-            <li id="rejoindre"><a href="rejoindre.php" data-titre="Nous rejoindre - KI">Rejoindre le KI</a></li>
-        </ul>
-    </nav>
-    <nav id="nav-activites" class="nav-secondaire">
-        <ul>
-            <li id="formations"><a href="formations.php" data-titre="Nos Formations - KI">Formations</a></li>
-            <li id="lan"><a href="lan.php" data-titre="Les LAN - KI">LAN</a></li>
-            <li id="upont"><a href="upont.php" data-titre="La plateforme uPont - KI">uPont</a></li>
-        </ul>
-    </nav>
-    </div>
 
-    <main class="">
+        <main>

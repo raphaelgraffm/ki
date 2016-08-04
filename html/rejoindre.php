@@ -1,4 +1,4 @@
-<h1 class="titre"><span class="fox">Nous </span><span class="orange">rejoindre</span></h1>
+<h1 class="titre">Nous rejoindre</h1>
 
 <p>Duis in iaculis ex. Morbi tincidunt faucibus sodales. Maecenas porta mattis libero vitae viverra. Fusce pellentesque nec nisi eget bibendum. Sed lobortis felis non risus volutpat feugiat. Aliquam erat volutpat. In hac habitasse platea dictumst.</p>
 

@@ -109,31 +109,21 @@ textarea {
   font-style: normal;
 }
 @font-face {
-  font-family: Open Sans SemiBold Italic;
-  src: url(../../fonts/OpenSans-SemiboldItalic.ttf);
-}
-@font-face {
-  font-family: Vollkorn;
-  src: url(../../fonts/Vollkorn-Regular.ttf);
+  font-family: Open Sans Regular;
+  src: url(../../fonts/OpenSans-Regular.ttf);
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: Fox In The Snow;
-  src: url(../../fonts/fox-in-the-snow.ttf);
+  font-family: Futura Regular;
+  src: url(../../fonts/Futura.ttf);
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: Signika;
-  src: url(../../fonts/Signika-Regular.ttf);
+  font-family: Akbar;
+  src: url(../../fonts/Akbar.ttf);
   font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: Signika SemiBold;
-  src: url(../../fonts/Signika-Semibold.ttf);
-  font-weight: bold;
   font-style: normal;
 }
 /* Import des utilitaires fournis par HTML5Boilerplate */
@@ -313,177 +303,160 @@ textarea {
 	Contenu
  */
 /* Parametres generaux */
-/*
-	Barre laterale
- */
-/*
-	Barre secondaire 
- */
-/*
-	Fenetre principal
- */
 /* Mixin pour tester le box model */
-#bordure {
-  border: 1px solid red;
-}
 html {
-  background-color: #EBF6FF;
-  font-size: 1.3vw;
-  font-family: Vollkorn, sans-serif;
+  font-family: 'Open Sans Regular', sans-serif;
   padding: 0;
   margin: 0;
+  font-size: 1.3vw;
+  line-height: 1.6;
+}
+/* Corrige un bug d'affichage suz Safari */
+#fond {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url(../../img/layout/fond.svg);
+  background-repeat: repeat;
+  background-position: 0px 0px;
+  background-size: 20%;
+}
+#central {
+  position: fixed;
+  width: 65%;
+  height: 100%;
+  left: 17.5%;
+  top: 0;
+  background-color: white;
+  z-index: 0;
+}
+#navigation {
+  position: relative;
+  top: 0px;
+}
+#nav-principale {
+  width: 65%;
+  position: absolute;
+  top: 0px;
+  left: 17.5%;
+}
+#nav-principale ul {
+  list-style-type: none;
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+  margin: 0;
+  padding: 0;
+}
+#nav-principale ul li {
+  display: block;
+  box-sizing: border-box;
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding: 10px;
+}
+#nav-principale ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 110%;
+  font-family: 'Open Sans Semibold';
+}
+#logo {
+  position: absolute;
+  top: 8px;
+  height: 13.11109878vw;
+  z-index: 5;
+}
+#navigation a:hover {
+  font-family: 'Open Sans Bold';
 }
 #navigation a:active {
   color: #D68847;
 }
-#nav-principale {
-  padding: 0;
-  margin: 0;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 20vw;
-  height: 100%;
-  background-image: url(../../img/layout/barre.svg);
-  background-position: 0px -1vw;
-  background-repeat: no-repeat;
+#nav-principale-fond {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 25.86015538%;
+  background-image: url(../../img/layout/banniere.svg);
   background-size: 100%;
-  background-origin: border-box;
-  z-index: 1;
-}
-#nav-principale #logo {
-  background-image: url(../../img/layout/logo.svg);
-  background-position: center center;
   background-repeat: no-repeat;
-  background-size: 90%;
-  width: 18vw;
-  height: 18vw;
-  padding: 0;
-  margin: 0;
-}
-#nav-principale #logo a {
-  display: block;
-  width: 81%;
-  height: 90%;
-  position: relative;
-  margin: 0 auto;
-}
-#nav-principale ul {
-  text-align: right;
-  margin: 0;
-  padding: 0;
-}
-#nav-principale ul :first-child {
-  margin-top: 20%;
-}
-#nav-principale ul li {
-  list-style-type: none;
-  margin-bottom: 10%;
-}
-#nav-principale ul li a {
-  color: #F8F5EF;
-  text-decoration: none;
-  font-family: 'Open Sans SemiBold';
-  font-size: 110%;
-}
-#nav-principale ul #accueil a {
-  position: relative;
-  left: -4.66666667vw;
-}
-#nav-principale ul #activites a {
-  position: relative;
-  left: -5.04vw;
-}
-#nav-principale ul #depannage a {
-  position: relative;
-  left: -5.41333333vw;
-}
-#nav-principale ul #rejoindre a {
-  position: relative;
-  left: -5.78666667vw;
-}
-#nav-principale ul a:hover {
-  font-family: 'Open Sans Bold';
-}
-.nav-secondaire {
-  padding: 0;
-  margin: 0;
-  position: fixed;
-  top: 0px;
-  left: -21vw;
-  width: 40vw;
-  height: 100%;
-  background-image: url(../../img/layout/barre_secondaire.svg);
-  background-position: 0px -10vw;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-origin: border-box;
-  z-index: 0;
-}
-.nav-secondaire ul {
-  text-align: right;
-  margin: 0;
-  padding: 0;
-}
-.nav-secondaire ul li {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 4.75%;
-}
-.nav-secondaire ul li a {
-  color: #F8F5EF;
-  text-decoration: none;
-  font-family: 'Signika';
-  font-size: 121%;
-}
-#nav-activites ul {
-  margin-top: 21.95vw;
-}
-#nav-activites ul a:hover {
-  font-family: 'Signika SemiBold';
-}
-#nav-activites #formations {
-  position: relative;
-  left: -4.66666667vw;
-}
-#nav-activites #lan {
-  position: relative;
-  left: -5.04vw;
-}
-#nav-activites #upont {
-  position: relative;
-  left: -5.41333333vw;
+  background-position: 0px 0px;
+  z-index: 2;
 }
 main {
-  box-sizing: border-box;
-  opacity: 1;
-  width: 80vw;
-  margin: 0;
-  padding: 0;
-  margin-top: 5vw;
-  padding-left: 13vw;
-  padding-right: 13vw;
+  width: 65%;
   position: absolute;
-  top: 0px;
-  left: 20vw;
-  color: #182090;
-  line-height: 1.6;
+  left: 17.5%;
+  top: 16.809101vw;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0;
+  padding-top: 3.5vw;
+  padding-left: 4%;
+  padding-right: 4%;
+  z-index: 1;
+}
+main p {
   font-size: 110%;
 }
-h1.titre {
-  font-family: 'Open Sans SemiBold Italic';
-  font-size: 250%;
+#nav-activites {
+  width: 65%;
+  height: 3.5vw;
+  position: relative;
+  top: -3.5vw;
+  left: 17.5%;
 }
-.fox {
-  font-family: 'Fox In The Snow';
+#nav-activites ul {
+  background-color: #D68847;
+  list-style-type: none;
+  position: absolute;
+  width: 100%;
+  z-index: 6;
+  margin: 0;
+  padding: 0;
+}
+#nav-activites ul li {
+  display: block;
+  height: 3.5vw;
+  box-sizing: border-box;
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding: 0.6vw;
+}
+#nav-activites ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 110%;
+  font-family: 'Open Sans Semibold';
 }
 .orange {
-  color: #D68847;
+  color: #DF8A2A;
 }
-.page-link {
-  font-family: 'Open Sans Bold';
+h1.titre {
+  font-size: 210%;
+  font-family: 'Futura Regular';
+  padding: 0vw;
+  padding-left: 1vw;
+  margin-top: 3vw;
+  margin-bottom: 4vw;
+  position: relative;
+  left: -1vw;
+  top: -1vw;
+  transform: rotate(-2deg);
+  background-image: url(../../img/layout/bande_moyen.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  color: white;
 }
-.cache {
-  opacity: 0;
+h1.court {
+  background-image: url(../../img/layout/bande_court.svg);
+}
+h1.long {
+  background-image: url(../../img/layout/bande_long.svg);
 }

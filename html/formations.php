@@ -1,4 +1,4 @@
-<h1 class="titre"><span class="fox">Nos </span><span class="orange">Formations</span></h1>
+<h1 class="titre long">Nos Formations</h1>
 
 <p>Duis et est purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse aliquam purus quis scelerisque vestibulum. Vivamus at hendrerit enim. Nam dignissim, lacus rhoncus tempus viverra, diam lacus fringilla augue, nec pellentesque justo felis ac elit. Morbi magna est, viverra et gravida a, pharetra vitae ante. Sed cursus orci urna, sit amet rhoncus nibh ultricies eu. Pellentesque condimentum congue neque gravida faucibus. Integer at nisi porttitor, tincidunt urna a, ultrices eros. Fusce mollis justo non convallis consequat. Nulla non velit diam. Ut tincidunt, felis ut facilisis porttitor, nulla neque sagittis sem, ut sodales velit justo vitae leo.</p>
 

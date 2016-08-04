@@ -1,4 +1,4 @@
-<h1 class="titre"><span class="fox">The </span><span class="orange">uPont</span></h1>
+<h1 class="titre court">The uPont</h1>
 
 <p>Sed et nunc nisl. Curabitur massa nisi, mattis nec lectus eu, convallis venenatis lectus. Etiam nisi sem, condimentum quis lacinia semper, commodo vitae dolor. Fusce vel semper sem. Integer sem arcu, eleifend id odio vitae, efficitur consectetur elit. Integer a imperdiet nisi, sit amet pulvinar augue. Duis a cursus erat. Nam a est sit amet purus maximus interdum. Nam et purus diam. Cras sodales, lacus nec vehicula porttitor, elit felis finibus ipsum, vitae porttitor nisi enim non dui. Integer sagittis eget metus in cursus. Ut aliquam ultrices est, luctus dictum elit ullamcorper at. Morbi hendrerit leo sed suscipit lacinia.</p>
 

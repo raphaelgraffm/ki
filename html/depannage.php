@@ -1,4 +1,4 @@
-<h1 class="titre"><span class="fox">Besoin d'</span><span class="orange">aide</span><span class="fox">?</span></h1>
+<h1 class="titre">Besoin d'aide?</h1>
 
 <p>Praesent cursus lorem vitae nibh cursus, ut luctus ipsum aliquet. Etiam ac consectetur odio. Fusce lacinia mauris vel vulputate dictum. Mauris sit amet nibh euismod, tincidunt quam id, volutpat ligula. Vestibulum volutpat imperdiet sem, non feugiat magna maximus quis. Suspendisse potenti. Aenean a malesuada elit. Maecenas pretium risus mauris, non ullamcorper sem fringilla pharetra. Quisque imperdiet faucibus condimentum. Sed hendrerit ornare consectetur.</p>
 
