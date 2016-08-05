@@ -103,7 +103,7 @@ $(document).ready(function() {
     });
     tm.call(undeploy_two);
     tm.from($('main h1.titre'), 0.6, {
-      scale: 0,
+      scale: 0.5,
       ease: Elastic.easeOut.config(0.6, 0.6)
     });
     tm.to($('#principal'), 1, {
