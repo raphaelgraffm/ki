@@ -366,9 +366,9 @@ html {
 }
 #logo {
   position: absolute;
-  top: 2.5vw;
+  top: 2vw;
   /*	height: unit(@content-width * @ratio-banniere * 0.78,vw);*/
-  height: 15.29501646vw;
+  height: 13.2842031vw;
   z-index: 5;
 }
 #navigation a:hover {
@@ -382,8 +382,8 @@ html {
   top: 0;
   left: 0;
   width: 100%;
-  padding-bottom: 33.61542078%;
-  background-image: url(../../img/layout/banniere2.svg);
+  padding-bottom: 29.19605078%;
+  background-image: url(../../img/layout/banniere3.svg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 0px 0px;
@@ -393,7 +393,7 @@ main {
   width: 65%;
   position: absolute;
   left: 17.5%;
-  top: 21.85002351vw;
+  top: 18.977433vw;
   box-sizing: border-box;
   height: 100%;
   padding: 0;
