@@ -19,4 +19,5 @@
 		$navigation.attr 'style', ""
 		root.navigation_top = $('#nav-activites').css('top')
 		root.main_top = $main.css('top')
+		root.principal_top = root.principal.offset().top
 		return
