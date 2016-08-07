@@ -464,7 +464,7 @@ main p {
   padding: 0;
 }
 #flot-principale ul li {
-  background-color: #0B3685;
+  background-color: transparent;
   display: block;
   height: 3.5vw;
   box-sizing: border-box;
@@ -479,16 +479,16 @@ main p {
   font-family: 'Open Sans Semibold';
 }
 #flot-principale ul #flot-accueil {
-  margin-top: 0.5vw;
+  margin-top: 0.45vw;
 }
 #flot-principale ul #flot-activites {
-  margin-top: 0.35vw;
+  margin-top: 0.3vw;
 }
 #flot-principale ul #flot-depannage {
-  margin-top: 0.20vw;
+  margin-top: 0.15vw;
 }
 #flot-principale ul #flot-rejoindre {
-  margin-top: 0.05vw;
+  margin-top: 0vw;
 }
 #flot-nav-titre {
   height: 4.5vw;
