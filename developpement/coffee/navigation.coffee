@@ -41,6 +41,7 @@
 		tm.set root.principal, {opacity: 0}
 		if $flottante.hasClass 'flot-triggered'
 			tm.to window, 0.4, {scrollTo:0}
+			$flottante.removeClass 'flot-triggered'
 		tm.call undeploy_two
 		tm.from $('main h1.titre'), 0.6, {scale: 0.5, ease: Elastic.easeOut.config(0.6,0.6)}
 		tm.to root.principal, 1, {opacity: 1}

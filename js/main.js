@@ -141,6 +141,7 @@ $(document).ready(function() {
       tm.to(window, 0.4, {
         scrollTo: 0
       });
+      $flottante.removeClass('flot-triggered');
     }
     tm.call(undeploy_two);
     tm.from($('main h1.titre'), 0.6, {
