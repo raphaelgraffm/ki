@@ -4,6 +4,7 @@
         <script src="js/vendor/jquery.history.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/TextPlugin.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/ScrollToPlugin.min.js"></script>
         <script src="js/main.min.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

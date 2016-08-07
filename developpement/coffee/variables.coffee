@@ -3,11 +3,15 @@
 	$main = $('main')
 	$fond = $('#fond')
 	$window = $(window)
+	$flottante = $('#nav-flottante')
 
 	# Global variables
 	root = exports ? this
 	root.navigation_top = $('#nav-activites').css('top')
 	root.main_top = $main.css('top')
+	root.principal = $('#principal')
+	root.principal_top = root.principal.offset().top
+	root.deployed = false
 
 	# Assure le fonctionnement des animations quand l'utilisateur resize
 	$(window).resize ->

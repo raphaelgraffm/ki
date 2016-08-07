@@ -37,6 +37,27 @@
             </nav>
         </div>
 
+        <!-- Navigation flottante -->
+        <div id="nav-flottante">
+            <nav id="flot-principale">
+                <div id="flot-nav-titre">Nos Formations</div>
+                <ul class="clearfix">
+                    <li id="flot-rejoindre"><a href="rejoindre.php" data-titre="Nous rejoindre - KI"><span class="orange">Rejoindre le KI</span></a></li>
+                    <li id="flot-depannage"><a href="depannage.php" data-titre="Nous contacter - KI">Contact</a></li>
+                    <li id="flot-activites"><a href="#">Activités</a></li>
+                    <li id="flot-accueil"><a href="index.php" data-titre="Accueil - KI">Accueil</a></li>
+                </ul>
+            </nav>
+            <nav id="flot-activites" class="flot-secondaire">
+                <ul class="clearfix">
+                    <li id="flot-empty"></li>
+                    <li id="flot-upont"><a href="upont.php" data-titre="La plateforme uPont - KI">uPont</a></li>
+                    <li id="flot-lan"><a href="lan.php" data-titre="Les LAN - KI">LAN</a></li>
+                    <li id="flot-formations"><a href="formations.php" data-titre="Nos Formations - KI">Formations</a></li>
+                </ul>
+            </nav>
+        </div>
+
         <div id="central"></div>
 
 
