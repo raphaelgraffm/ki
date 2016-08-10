@@ -330,12 +330,10 @@ html {
   top: 0;
   background-color: white;
   z-index: 0;
-}
-@media screen and (max-width: 768px) {
-  #central {
-    width: 100%;
-    left: 0%;
-  }
+  /*	@media screen and (max-width: @ipad-max-width) {
+		width: @content-width-ipad;
+		left: unit((100 - @content-width-ipad) / 2,%);
+	}*/
 }
 #navigation {
   position: relative;
@@ -346,6 +344,10 @@ html {
   position: absolute;
   top: 0px;
   left: 17.5%;
+  /*	@media screen and (max-width: @ipad-max-width) {
+		width: @content-width-ipad;
+		left: unit((100 - @content-width-ipad) / 2,%);
+	}*/
 }
 #nav-principale ul {
   list-style-type: none;
@@ -369,22 +371,14 @@ html {
   font-size: 110%;
   font-family: 'Open Sans Semibold';
 }
-@media screen and (max-width: 768px) {
-  #nav-principale {
-    width: 100%;
-    left: 0%;
-  }
-}
 #logo {
   position: absolute;
   top: 8px;
   height: 13.11109878vw;
   z-index: 5;
-}
-@media screen and (max-width: 768px) {
-  #logo {
-    height: 20.1709212vw;
-  }
+  /*	@media screen and (max-width: @ipad-max-width) {
+		height: unit(@content-width-ipad * @ratio-banniere * 0.78,vw);
+	}*/
 }
 #navigation a:hover {
   font-family: 'Open Sans Bold';
@@ -416,16 +410,14 @@ main {
   padding-left: 4%;
   padding-right: 4%;
   z-index: 1;
+  /*	@media screen and (max-width: @ipad-max-width) {
+		width: @content-width-ipad;
+		left: unit((100 - @content-width-ipad) / 2,%);
+		top: unit(@ratio-banniere * @content-width-ipad,vw);
+	}*/
 }
 main p {
   font-size: 110%;
-}
-@media screen and (max-width: 768px) {
-  main {
-    width: 100%;
-    left: 0%;
-    top: 25.86015538vw;
-  }
 }
 #nav-activites {
   width: 65%;
@@ -433,6 +425,10 @@ main p {
   position: relative;
   top: -3.5vw;
   left: 17.5%;
+  /*	@media screen and (max-width: @ipad-max-width) {
+		width: @content-width-ipad;
+		left: unit((100 - @content-width-ipad) / 2,%);
+	}*/
 }
 #nav-activites ul {
   background-color: #D68847;
@@ -458,12 +454,6 @@ main p {
   font-size: 110%;
   font-family: 'Open Sans Semibold';
 }
-@media screen and (max-width: 768px) {
-  #nav-activites {
-    width: 100%;
-    left: 0%;
-  }
-}
 #nav-flottante {
   width: 65%;
   height: 10vw;
@@ -474,12 +464,10 @@ main p {
   padding: 0;
   margin: 0;
   transition: top 400ms;
-}
-@media screen and (max-width: 768px) {
-  #nav-flottante {
-    width: 100%;
-    left: 0%;
-  }
+  /*	@media screen and (max-width: @ipad-max-width) {
+		width: @content-width-ipad;
+		left: unit((100 - @content-width-ipad) / 2,%);
+	}*/
 }
 #flot-principale {
   width: 100%;
