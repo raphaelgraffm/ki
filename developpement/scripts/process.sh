@@ -3,6 +3,7 @@
 # css processing
 echo Processing less files...
 lessc developpement/less/large/styles.less css/large/styles.dev.css
+lessc developpement/less/ipad/styles.less css/ipad/styles.dev.css
 
 pleeease compile
 
