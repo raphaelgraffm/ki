@@ -1,4 +1,4 @@
-<h1 class="titre court">Les LAN</h1>
+<h1 class="titre mi-court">Jeux vidéos</h1>
 
 <div id="principal">
 	<p>Phasellus consequat, elit a semper mattis, magna velit bibendum purus, eget tincidunt sem quam eget augue. Aenean sagittis eleifend metus, eget malesuada nunc malesuada eu. In porttitor velit neque. Sed diam odio, molestie at purus non, viverra tincidunt quam. Quisque non ante vel mi porta mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In semper, velit eu porttitor hendrerit, lorem libero sollicitudin ante, eu dapibus dolor ante a magna. In erat erat, sodales aliquam nibh ut, vestibulum egestas turpis. Phasellus porttitor augue risus, at blandit sem pharetra eu. Proin non metus a est sodales sollicitudin vitae vitae mi.</p>

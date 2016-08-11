@@ -585,6 +585,9 @@ h1.titre {
 h1.court {
   background-image: url(../../img/layout/bande_court.svg);
 }
+h1.mi-court {
+  background-image: url(../../img/layout/bande_mi_court.svg);
+}
 h1.long {
   background-image: url(../../img/layout/bande_long.svg);
 }
