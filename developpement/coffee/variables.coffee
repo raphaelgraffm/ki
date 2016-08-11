@@ -4,6 +4,7 @@
 	$fond = $('#fond')
 	$window = $(window)
 	$flottante = $('#nav-flottante')
+	$switchable = $('#switchable')
 
 	# Global variables
 	root = exports ? this

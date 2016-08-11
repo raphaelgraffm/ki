@@ -33,7 +33,7 @@
 
 	writeText = (data) -> 
 		tm = new TimelineMax()
-		tm.set $main, {text:data}
+		tm.set $('#switchable'), {text:data}
 		root.principal = $('#principal')
 		root.principal_top = root.principal.offset().top
 		contenu = root.principal.html()
