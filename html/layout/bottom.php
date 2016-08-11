@@ -1,4 +1,6 @@
+            <div id="push"></div>
         </main>
+        <footer></footer>
         <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.1.0.min.js"><\/script>')</script>
         <script src="js/vendor/jquery.history.js"></script>

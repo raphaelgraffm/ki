@@ -310,6 +310,10 @@ html {
   margin: 0;
   font-size: 1.3vw;
   line-height: 1.6;
+  height: 100%;
+}
+body {
+  height: 100%;
 }
 /* Corrige un bug d'affichage suz Safari */
 #fond {
@@ -380,10 +384,12 @@ html {
 		height: unit(@content-width-ipad * @ratio-banniere * 0.78,vw);
 	}*/
 }
-#navigation a:hover {
+#navigation a:hover,
+#nav-flottante a:hover {
   font-family: 'Open Sans Bold';
 }
-#navigation a:active {
+#navigation a:active,
+#nav-flottante a:active {
   color: #D68847;
 }
 #nav-principale-fond {
@@ -418,6 +424,25 @@ main {
 }
 main p {
   font-size: 110%;
+}
+main::after {
+  margin: 0;
+  padding: 0;
+  content: "@KI'018";
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans Regular', sans-serif;
+  padding-top: 2.5em;
+  background-image: url(../../img/layout/footer.svg);
+  background-size: contain;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  width: 65vw;
+  height: 2.5em;
+  position: relative;
+  left: -7.01538462%;
+  display: block;
+  margin-top: 1.25em;
 }
 #nav-activites {
   width: 65%;
