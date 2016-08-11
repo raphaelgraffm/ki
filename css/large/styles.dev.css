@@ -465,7 +465,7 @@ main p {
 	}*/
 }
 #nav-activites ul {
-  background-color: #D68847;
+  background-color: #7EB8EF;
   list-style-type: none;
   position: absolute;
   width: 100%;
@@ -565,7 +565,7 @@ main p {
   height: 3.5vw;
   position: relative;
   top: 0px;
-  background-color: #D68847;
+  background-color: #7EB8EF;
   left: 0px;
   padding: O;
   margin: 0;
@@ -576,7 +576,7 @@ main p {
   padding: 0;
 }
 #flot-activites ul li {
-  background-color: #D68847;
+  background-color: #7EB8EF;
   display: block;
   height: 3.5vw;
   box-sizing: border-box;

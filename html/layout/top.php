@@ -25,7 +25,7 @@
                     <li id="accueil"><a href="index.php" data-titre="Accueil - KI">Accueil</a></li>
                     <li id="activites"><a href="#">Activités</a></li>
                     <li id="depannage"><a href="depannage.php" data-titre="Nous contacter - KI">Contact</a></li>
-                    <li id="rejoindre"><a href="rejoindre.php" data-titre="Nous rejoindre - KI"><span class="orange">Rejoindre le KI</span></a></li>
+                    <li id="membres"><a href="membres.php" data-titre="Membres - KI">Membres</a></li>
                 </ul>
             </nav>
             <nav id="nav-activites" class="nav-secondaire">
@@ -42,7 +42,7 @@
             <nav id="flot-principale">
                 <div id="flot-nav-titre">Nos Formations</div>
                 <ul class="clearfix">
-                    <li id="flot-rejoindre"><a href="rejoindre.php" data-titre="Nous rejoindre - KI"><span class="orange">Rejoindre le KI</span></a></li>
+                    <li id="flot-membres"><a href="membres.php" data-titre="Membres - KI">Membres</a></li>
                     <li id="flot-depannage"><a href="depannage.php" data-titre="Nous contacter - KI">Contact</a></li>
                     <li id="flot-activites"><a href="#">Activités</a></li>
                     <li id="flot-accueil"><a href="index.php" data-titre="Accueil - KI">Accueil</a></li>
