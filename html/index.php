@@ -1,4 +1,4 @@
-<h1 class="titre"><span>Such KI. Wow.</span></h1>
+<h1 class="titre mi-court"><span>KI, Kesako?</span></h1>
 
 <div id="principal">
 <p>
