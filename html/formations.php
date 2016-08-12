@@ -1,13 +1,49 @@
 <h1 class="titre long">Nos Formations</h1>
 
 <div id="principal">
-	<p>Duis et est purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse aliquam purus quis scelerisque vestibulum. Vivamus at hendrerit enim. Nam dignissim, lacus rhoncus tempus viverra, diam lacus fringilla augue, nec pellentesque justo felis ac elit. Morbi magna est, viverra et gravida a, pharetra vitae ante. Sed cursus orci urna, sit amet rhoncus nibh ultricies eu. Pellentesque condimentum congue neque gravida faucibus. Integer at nisi porttitor, tincidunt urna a, ultrices eros. Fusce mollis justo non convallis consequat. Nulla non velit diam. Ut tincidunt, felis ut facilisis porttitor, nulla neque sagittis sem, ut sodales velit justo vitae leo.</p>
+	<p>
+		À peine arrivés en école d’ingénieur, tous les élèves se retrouvent confrontés à Linux et encouragés à rendre leurs devoirs en LaTeX. Si tu as l’impression qu’on vient de t’insulter en allemand, rassure toi, ça fait toujours ça la première fois !
+	</p>
+	<p>
+		Peu importe ton niveau, peu importent tes connaissances, <span class="surligne">le KI est là pour t’accompagner</span> et te familiariser avec ces nouveaux outils tout au long de l’année, à travers moultes formations accompagnées bien évidemment de pizzas. <br/> <span class="akbar">(avec ou sans ananas)</span>
+	</p>
+	<p class="handwritten">
+		“Ok, et si j’ai envie de plus?”
+	</p>
+	<p>
+		Pas de problème, le KI ne s’arrête pas là ! En plus de formations ponctuelles, le KI propose chaque année <span class="surligne">une formation continue et personnalisée</span>, à raison d’un rendez-vous par semaine. En 2016, nous avons pu apprendre les bases de la programmation Web à travers HTML, CSS, Javascript et le framework PHP Symfony 2, mais qui sait ce que le KI te réserve cette année ?
+	</p>
 
-	<p>Sed luctus, tellus vitae molestie efficitur, velit urna mattis odio, at accumsan turpis massa vitae nisi. Donec euismod eros sed risus vestibulum, non elementum justo volutpat. Phasellus ac quam id urna dictum tempor. Quisque malesuada ante et est consequat dignissim. Phasellus eu mi eu sem semper finibus sit amet ac sapien. Mauris quis ex quis augue consequat maximus. Aenean aliquet urna tortor, eget semper nisi volutpat eu. In tempus, arcu in imperdiet cursus, ex lacus condimentum sapien, ultricies elementum orci quam eu purus. In id augue a nisi suscipit posuere a ut nunc. Etiam a fringilla lectus. Praesent cursus ipsum id molestie lacinia. Morbi ac ipsum sem. Maecenas efficitur, neque id euismod auctor, ex turpis placerat diam, ac ultrices ipsum eros at orci. Sed ac consequat enim. Nullam laoreet congue diam vel luctus.</p>
+	<h2 class="sous-titre">Nos précédentes formations</h2>
 
-	<p>Mauris malesuada maximus facilisis. Integer cursus eget leo at pellentesque. Mauris rhoncus luctus suscipit. In in suscipit libero, eget commodo lorem. Praesent vitae mauris id lacus facilisis mollis. Donec pharetra lobortis tempor. Proin a faucibus ipsum. Morbi molestie quam eu iaculis cursus. Ut ultrices lorem et nunc ornare luctus. Sed vitae orci quis lorem pulvinar iaculis id non mi. Integer nec orci vel enim facilisis semper.</p>
+	<div class="paragraphe clearfix">
+		<img class="float-right" src="img/accueil/local.jpg"/>
+		<p>
+			La <span class="surligne">Formation LaTeX</span> a permis à ceux qui tapaient jusqu'ici leurs rendus et leurs projets sur Microsoft Word de s'initier à cet outil puissant de mise en page. 
+		</p>
+		<p>
+			En deux heures, entrecoupées d'une pause pizza méritée, les élèves ont eu un aperçu des commandes les plus utiles et ont pu se faire la main sur quelques TP encadrés par les membres du club. 
+		</p>
+	</div>
 
-	<p>Nam hendrerit, metus at imperdiet scelerisque, tortor mauris interdum leo, quis condimentum mi purus ac quam. Fusce vitae felis pharetra, vestibulum risus nec, pharetra est. Suspendisse efficitur eget nulla a tincidunt. Nullam ac turpis magna. In pretium pretium lorem, nec accumsan ex viverra laoreet. Phasellus finibus ante eu finibus euismod. Phasellus feugiat mattis quam in imperdiet. Donec ac hendrerit leo. Sed a commodo est. Cras tincidunt mi enim, nec euismod lectus dignissim eget. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+	<div class="paragraphe clearfix">
+		<img class="float-left" src="img/accueil/local.jpg"/>
+		<p>
+			La <span class="surligne">Formation Git</span> a attiré beaucoup de curieux, désireux d'apprendre à maîtriser cet outil très puissant, mais réputé difficile à prendre en main.
+		</p>
+		<p>
+			Add, commit, push, pull, branch... Les commandes et les traits d'humour se sont enchaînés à un rythme effréné, et autant débutants que confirmés ont trouvé de quoi se mettre sous la dent et développer leurs compétences. 
+		</p>
+	</div>
 
-	<p>Vestibulum quis ipsum vitae tellus suscipit dapibus id vitae dolor. Mauris vitae luctus est, eget elementum eros. Vestibulum finibus purus tortor, eu scelerisque quam venenatis at. Mauris finibus leo nunc, ut ultricies leo cursus nec. Suspendisse non urna sit amet enim facilisis blandit. Etiam non nunc mi. Nullam maximus, elit sed molestie rutrum, neque purus consequat dolor, tincidunt hendrerit eros quam sed est. Nunc neque tellus, volutpat quis aliquet non, dapibus sed dui. Aliquam erat volutpat. Sed varius arcu eu est volutpat, ac consequat metus semper. Sed tempor nulla et lectus laoreet molestie.</p>
+	<div class="paragraphe clearfix">
+		<img class="float-right" src="img/accueil/local.jpg"/>
+		<p>
+			La <span class="surligne">Formation Web</span> poursuivait deux objectifs : fournir aux élèves les bases nécessaires pour créer un site web de zéro, mais aussi former les futurs développeurs de <a href="upont.php" data-titre="La plateforme uPont - KI">uPont</a>, la plateforme interne des étudiants des Ponts.
+		</p>
+		<p>
+			A raison de deux heures par semaine et d'un TP constituant le fil rouge de la formation, les élèves ont pu découvrir HTML, CSS, ainsi que Javascript et PHP à travers les frameworks Angular et Symfony 2.
+		</p>
+	</div>
+
 </div>

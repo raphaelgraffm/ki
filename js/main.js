@@ -114,6 +114,17 @@ $(document).ready(function() {
       }, $(this).attr('data-titre'), lien);
     }
   });
+  $main.on('click', 'a', function(event) {
+    var lien;
+    event.preventDefault();
+    desactivate_navigation();
+    lien = $(this).attr('href');
+    if (lien !== '#') {
+      History.pushState({
+        target: lien
+      }, $(this).attr('data-titre'), lien);
+    }
+  });
   success = function(data, status, xml) {
     var timeline;
     timeline = new TimelineMax();

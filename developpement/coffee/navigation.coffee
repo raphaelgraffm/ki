@@ -24,6 +24,13 @@
 		History.pushState(target: lien, $(this).attr('data-titre'), lien) unless lien == '#'
 		return
 
+	$main.on 'click', 'a', (event) ->
+		event.preventDefault()
+		desactivate_navigation()
+		lien = $(this).attr 'href'
+		History.pushState(target: lien, $(this).attr('data-titre'), lien) unless lien == '#'
+		return
+
 	success = (data, status, xml) ->
 		timeline = new TimelineMax() 
 		timeline.to $main, 0.4, {opacity: 0, onComplete: writeText, onCompleteParams: [data]}

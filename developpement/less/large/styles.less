@@ -124,6 +124,7 @@ main {
 	left: unit((100 - @content-width) / 2,%);
 	top: unit(@ratio-banniere * @content-width,vw);
 	box-sizing: border-box;
+	text-align: justify;
 	height: 100%;
 	padding: 0;
 /*	padding-top: 3.5vw;*/
@@ -132,6 +133,15 @@ main {
 	z-index: 1;
 	p {
 		font-size: 110%;
+	}
+	a {
+		color: @bleu-principal;
+		text-decoration: none;
+		border-bottom: 2px solid @bleu-principal;
+	}
+	a:hover {
+		color: @orange;
+		border-bottom: 2px solid @orange;
 	}
 /*	@media screen and (max-width: @ipad-max-width) {
 		width: @content-width-ipad;
@@ -320,6 +330,54 @@ main {
 	color: #DF8A2A;
 }
 
+.akbar {
+	font-family: 'Akbar';
+	color: @rouge;
+}
+
+.surligne {
+	background-color: #FFF8A9;
+}
+
+.handwritten {
+	color: @bleu-principal;
+	font-size: 160%;
+	font-family: 'Patrick Hand';
+	position: relative;
+	left: 1em;
+	margin-top: 1.3em;
+	margin-bottom: 1.3em;
+}
+
+.section-bleu {
+	width: 100%;
+	box-sizing: content-box;
+	background-color: @bleu-secondaire;
+	margin: 0;
+	padding: 1.5em;
+	padding-left: @padding-content;
+	padding-right: @padding-content;
+	margin-top: 4em;
+	position: relative;
+	left: -@padding-content;
+	color: white;
+	h2.sous-titre {
+		font-family: 'Futura Regular';
+		font-size: 170%;
+	}
+}
+
+h2.sous-titre {
+	font-family: 'Futura Regular';
+	font-size: 170%;
+	background-color: @bleu-secondaire;
+	color: white;
+	text-align: center;
+	padding: 0.1em;
+	margin-top: 2.5em;
+	margin-bottom: 2em;
+}
+
 h1.titre {
 	font-size: 210%;
 	font-family: 'Futura Regular';
@@ -336,6 +394,26 @@ h1.titre {
 	background-repeat: no-repeat;
 	background-size: auto 100%;
 	color: white;
+}
+
+img.float-right {
+	width: 50%;
+	float: right;
+	margin-left: 1em;
+}
+
+img.float-left {
+	width: 50%;
+	float: left;
+	margin-right: 1em;
+}
+
+div.paragraphe {
+	margin-bottom: 2em;
+}
+
+div.flushright {
+	text-align: right;
 }
 
 h1.court {
