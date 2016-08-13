@@ -303,6 +303,9 @@ textarea {
 	Contenu
  */
 /* Parametres generaux */
+@viewport {
+  width: device-width;
+}
 /* Mixin pour tester le box model */
 html {
   font-family: 'Open Sans Regular', sans-serif;
@@ -650,26 +653,50 @@ main a:hover {
   font-family: 'Patrick Hand';
   font-size: 115%;
 }
-.section-bleu {
+/*.section-bleu {
+	width: 100%;
+	box-sizing: content-box;
+	background-color: @bleu-secondaire;
+	margin: 0;
+	padding: 0;
+	padding-left: @padding-content;
+	padding-right: @padding-content;
+	margin-top: 7em;
+	margin-bottom: 8em;
+	position: relative;
+	left: -@padding-content;
+	color: white;
+	h2.sous-titre {
+		font-family: 'Futura Regular';
+		font-size: 170%;
+		padding: 0;
+		margin-bottom: 2em;
+		text-align: center;
+		#bordure;
+	}
+}*/
+h2.sous-titre {
+  font-family: 'Futura Regular';
+  box-sizing: border-box;
   width: 100%;
-  box-sizing: content-box;
-  background-color: #7EB8EF;
+  height: 5.3vw;
   margin: 0;
   padding: 0;
-  padding-left: 3.5em;
-  padding-right: 3.5em;
-  margin-top: 7em;
-  margin-bottom: 8em;
-  position: relative;
-  left: -3.5em;
-  color: white;
-}
-.section-bleu h2.sous-titre {
-  font-family: 'Futura Regular';
   font-size: 170%;
-  padding: 0;
-  margin-bottom: 2em;
   text-align: center;
+  display: block;
+  background-image: url(../../img/layout/bande_secondaire.svg);
+  background-size: 100%;
+  background-position: top left;
+  background-repeat: no-repeat;
+  color: white;
+  padding-top: 0.9vw;
+  margin-top: 6vw;
+  margin-bottom: 5vw;
+}
+h2.sous-titre span {
+  display: block;
+  transform: rotate(-1deg);
 }
 /*.section-bleu::before {
 	content: "";
@@ -689,24 +716,24 @@ main a:hover {
 	margin: 0;
 	pading: 0;
 }*/
-.section-bleu::before {
-  content: "";
-  box-sizing: content-box;
-  display: block;
-  padding-left: 3.5em;
-  padding-right: 3.5em;
-  position: relative;
-  left: -3.5em;
-  top: -3.5em;
-  background-image: url(../../img/layout/blue_section_haut_grand.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom left;
-  height: 3.5em;
-  width: 100%;
-  margin: 0;
-  pading: 0;
-}
+/*.section-bleu::before {
+	content: "";
+	box-sizing: content-box;
+	display: block;
+	margin: 0;
+	padding: 0;
+	padding-left: @padding-content;
+	padding-right: @padding-content;
+	position: relative;
+	left: -@padding-content;
+	top: -3.5em;
+	background-image: url(../../img/layout/blue_section_haut_grand.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom left;
+	height: 3.5em;
+	width: 100%;
+}*/
 /*.section-bleu::after {
 	content: "";
 	box-sizing: content-box;
@@ -725,24 +752,24 @@ main a:hover {
 	margin: 0;
 	pading: 0;
 }*/
-.section-bleu::after {
-  content: "";
-  box-sizing: content-box;
-  display: block;
-  padding-left: 3.5em;
-  padding-right: 3.5em;
-  position: relative;
-  left: -3.5em;
-  top: 4.9em;
-  background-image: url(../../img/layout/blue_section_bas_grand.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top right;
-  height: 5em;
-  width: 100%;
-  margin: 0;
-  pading: 0;
-}
+/*.section-bleu::after {
+	content: "";
+	box-sizing: content-box;
+	display: block;
+	margin: 0;
+	padding: 0;
+	padding-left: @padding-content;
+	padding-right: @padding-content;
+	position: relative;
+	left: -@padding-content;
+	top: 4.9em;
+	background-image: url(../../img/layout/blue_section_bas_grand.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top right;
+	height: 5em;
+	width: 100%;
+}*/
 /*h2.sous-titre {
 	font-family: 'Futura Regular';
 	font-size: 170%;
