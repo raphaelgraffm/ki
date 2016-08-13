@@ -1,7 +1,7 @@
 	# Interactions avec la barre secondaire
 	activate_navigation = ->
 		$('#activites a').mouseenter(deploy_two) 
-		$navigation.mouseleave(undeploy_two) 
+		$('#nav-hover').mouseenter(undeploy_two) 
 		$('#flot-activites').mouseenter ->
 			$flottante.addClass('flot-deployed')
 		$flottante.mouseleave ->
@@ -10,7 +10,7 @@
 
 	desactivate_navigation = ->
 		$('#activites a').off('mouseenter')
-		$navigation.off('mouseleave')
+		$('#nav-hover').off('mouseenter')
 		$('#flot-activites').off('mouseenter')
 		$flottante.off('mouseleave')
 

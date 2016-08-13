@@ -52,7 +52,7 @@ $(document).ready(function() {
   };
   activate_navigation = function() {
     $('#activites a').mouseenter(deploy_two);
-    $navigation.mouseleave(undeploy_two);
+    $('#nav-hover').mouseenter(undeploy_two);
     $('#flot-activites').mouseenter(function() {
       return $flottante.addClass('flot-deployed');
     });
@@ -62,7 +62,7 @@ $(document).ready(function() {
   };
   desactivate_navigation = function() {
     $('#activites a').off('mouseenter');
-    $navigation.off('mouseleave');
+    $('#nav-hover').off('mouseenter');
     $('#flot-activites').off('mouseenter');
     return $flottante.off('mouseleave');
   };

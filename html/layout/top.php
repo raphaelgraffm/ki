@@ -36,6 +36,7 @@
                     <li id="upont"><a href="upont.php" data-titre="La plateforme uPont - KI">uPont</a></li>
                 </ul>
             </nav>
+            <div id="nav-hover"></div>
         </div>
 
         <!-- Navigation flottante -->
