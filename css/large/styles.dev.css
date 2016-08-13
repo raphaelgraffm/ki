@@ -488,7 +488,7 @@ main a:hover {
   height: 6.5em;
   box-sizing: border-box;
   position: absolute;
-  bottom: -23.809101vw;
+  bottom: -28.809101vw;
   left: 17.5%;
   display: block;
   margin-top: 5em;
@@ -813,6 +813,11 @@ img.float-left {
   width: 50%;
   float: left;
   margin-right: 1em;
+}
+img.full-size {
+  width: 100%;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
 }
 div.paragraphe {
   margin-bottom: 2em;

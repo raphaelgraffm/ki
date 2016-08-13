@@ -2,18 +2,21 @@
 
 <div id="principal">
 	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non arcu maximus lectus consectetur hendrerit. Morbi sit amet dui mollis, rhoncus tellus quis, pellentesque odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed eu erat fermentum, ullamcorper ipsum tempus, eleifend augue. Cras maximus rutrum mauris quis venenatis. Vestibulum sed erat condimentum, molestie risus vitae, lacinia justo. Praesent elementum, urna at scelerisque fringilla, magna arcu hendrerit ex, eu aliquam metus elit ut sem. Fusce placerat tempor urna sed dictum. Sed id vulputate nunc. Sed tincidunt efficitur libero, ornare aliquet tortor mollis non. Duis fringilla a turpis ac hendrerit. Suspendisse vestibulum eu quam eu imperdiet. Praesent ultrices rhoncus dapibus. Nullam bibendum, nisl venenatis congue aliquam, libero lacus ultrices felis, et faucibus leo elit dictum est. Mauris dolor nisl, auctor a euismod sit amet, porttitor id dui.
+		Le KI est le <span class="surligne">Club Informatique de l'École des Ponts ParisTech</span>, fondé en 1997.
+		<br/>
+		<span class="invisible">Le </span><img src="img/layout/fleche2.svg" style="height:1em;display:inline;"/><span class="akbar">ca se prononce "K-I"</span>
+	</p>
+	<img class="full-size" src="img/accueil/local.jpg" style="margin-top:2em;margin-bottom:1em;"/>
+	<p class="question">
+		"Et concrètement, il s'occupe de quoi?"
 	</p>
 	<p>
-		Integer eu lectus eu est accumsan rhoncus. Sed turpis ante, commodo quis lobortis sit amet, eleifend sit amet tortor. Nullam vestibulum auctor est, sed fermentum nunc ultricies ut. Aliquam id congue tortor. Quisque blandit mauris arcu, eu gravida dui ultricies finibus. Duis eleifend neque nec lacinia interdum. Mauris varius felis ut elementum placerat. Aliquam quis est ut purus egestas pharetra ut bibendum sapien. Integer elementum hendrerit ex et facilisis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam vitae aliquet lorem, porttitor dignissim libero. Nulla sapien sapien, suscipit et bibendum id, molestie vitae arcu. Fusce vitae molestie lectus, in rhoncus tellus.
+		Plein de choses, globalement <span class="surligne">tout ce qui touche à la vie numérique de l'Ecole</span>. Non contents de maintenir le réseau des résidences et de coder <a href="upont.php" data-titre="La plateforme uPont - KI">uPont</a>, la plateforme interne des étudiants, nous organisons aussi des <a href="formations.php" data-titre="Nos Formations - KI">formations</a> destinées aux élèves et des <a href="lan.php" data-titre="Jeux Vidéos - KI">soirées jeux vidéos</a> pour se détendre entre deux cours de mécanique des fluides.
+	</p>
+	<p class="question">
+		"Cool. Et si j'ai besoin d'aide, je m'adresse où?"
 	</p>
 	<p>
-		Sed tempor auctor odio, vel volutpat eros pulvinar nec. Quisque euismod augue felis, ut pellentesque arcu fringilla at. Pellentesque et nunc placerat, volutpat ante id, maximus tellus. Sed ut justo id neque elementum malesuada id in ante. Nam aliquet lorem nec erat ornare aliquam. Nullam eget ipsum gravida, bibendum turpis id, dignissim mi. Aliquam erat volutpat. Praesent libero ipsum, auctor eget bibendum quis, rhoncus non enim. Sed nec lacus pharetra, dignissim turpis eget, hendrerit libero. Donec sagittis suscipit tristique. Pellentesque vitae pulvinar tortor. Ut pharetra mi sed felis luctus, id gravida nisl ultricies. Maecenas eget ligula arcu.
-	</p>
-	<p>
-		Donec ultrices blandit dolor, at ultricies lacus eleifend a. Nullam euismod rutrum dolor, efficitur elementum nisl interdum sed. Maecenas a dolor posuere, volutpat lacus vel, varius nisl. Mauris eget auctor risus. Vestibulum sollicitudin sapien ligula, at porttitor nisi facilisis eget. Curabitur mauris nisl, scelerisque eget risus ac, sagittis gravida tellus. Quisque ac imperdiet felis. Integer risus ligula, sagittis a eleifend sit amet, hendrerit eu nibh. Nullam cursus erat eget eros placerat, sed maximus velit fringilla. Integer euismod luctus ultrices. Donec accumsan, diam sed tempus egestas, nibh mi sollicitudin massa, eget tempor orci nulla sit amet felis. Pellentesque volutpat faucibus vehicula. Aenean iaculis sagittis dui eu accumsan.
-	</p>
-	<p>
-		Vivamus eu maximus massa, hendrerit interdum turpis. Vivamus vulputate ex at ullamcorper imperdiet. Donec porttitor, dolor sed convallis dignissim, neque purus pharetra justo, sed condimentum augue orci vel mi. Nunc in dui lacus. Maecenas et tellus elit. Donec commodo nisl eros, nec ullamcorper metus fermentum eget. Curabitur id feugiat magna, ut consequat tellus. Phasellus accumsan consequat elementum. Cras sit amet porttitor velit. Sed lobortis nec urna vitae tincidunt. Donec vel eleifend nulla, quis eleifend velit. Morbi eu dapibus augue, nec eleifend augue.
+		Si même l'ami Google a jeté l'éponge et que tu en es réduit à redémarrer ton ordinateur en boucle en espérant que la 273e fois sera la bonne, tu peux nous envoyer un <a href="depannage.php" data-titre="Nous contacter - KI">petit message</a> pour nous expliquer le problème ou bien passer nous voir directement <span class="surligne">en salle P401</span>. Tu peux aussi venir si tu as envie d'un petit Smash Bros entre deux cours. Ou bien juste pour faire coucou. Nous ne sommes qu'amour. <span class="akbar">eT pizza.</span>
 	</p>
 </div>

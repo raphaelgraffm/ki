@@ -203,7 +203,7 @@ main {
 	height: 6.5em;
 	box-sizing: border-box;
 	position: absolute;
-	bottom: unit(-@ratio-banniere * @content-width - 7,vw);
+	bottom: unit(-@ratio-banniere * @content-width - 12,vw);
 	left: unit((100 - @content-width) / 2,%);
 	display:block;
 	margin-top: 0.5 * @footer-height-grand;
@@ -550,6 +550,12 @@ img.float-left {
 	width: 50%;
 	float: left;
 	margin-right: 1em;
+}
+
+img.full-size {
+	width: 100%;
+	margin-top: 2.5em;
+	margin-bottom: 2.5em;
 }
 
 div.paragraphe {
