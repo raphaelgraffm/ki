@@ -24,7 +24,7 @@
                 <div id="nav-principale-fond"></div>
                 <ul>
                     <li id="accueil"><a href="index.php" data-titre="Accueil - KI">Accueil</a></li>
-                    <li id="activites"><a href="#">Activités</a></li>
+                    <li id="activites"><a href="#" class="unclickable"><img src="img/layout/fleche.svg" style="height:1em;"/> Activités</a></li>
                     <li id="membres"><a href="membres.php" data-titre="Membres - KI">Membres</a></li>
                     <li id="depannage"><a href="depannage.php" data-titre="Nous contacter - KI">Contact</a></li>
                 </ul>
@@ -46,7 +46,7 @@
                 <ul class="clearfix">
                     <li id="flot-depannage"><a href="depannage.php" data-titre="Nous contacter - KI">Contact</a></li>
                     <li id="flot-membres"><a href="membres.php" data-titre="Membres - KI">Membres</a></li>
-                    <li id="flot-activites"><a href="#">Activités</a></li>
+                    <li id="flot-activites"><a href="#" class="unclickable"><img src="img/layout/fleche.svg" style="height:1em;"/> Activités</a></li>
                     <li id="flot-accueil"><a href="index.php" data-titre="Accueil - KI">Accueil</a></li>
                 </ul>
             </nav>
