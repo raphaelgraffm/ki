@@ -1,13 +1,40 @@
 <h1 class="titre mi-court">Jeux vidéos</h1>
 
 <div id="principal">
-	<p>Phasellus consequat, elit a semper mattis, magna velit bibendum purus, eget tincidunt sem quam eget augue. Aenean sagittis eleifend metus, eget malesuada nunc malesuada eu. In porttitor velit neque. Sed diam odio, molestie at purus non, viverra tincidunt quam. Quisque non ante vel mi porta mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In semper, velit eu porttitor hendrerit, lorem libero sollicitudin ante, eu dapibus dolor ante a magna. In erat erat, sodales aliquam nibh ut, vestibulum egestas turpis. Phasellus porttitor augue risus, at blandit sem pharetra eu. Proin non metus a est sodales sollicitudin vitae vitae mi.</p>
+	<p class="question">Video games are love, video games are life.</p>
 
-	<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras id consectetur diam. In pretium, leo feugiat imperdiet convallis, felis quam facilisis dui, vitae blandit lectus ante eget est. In non scelerisque turpis, nec pellentesque arcu. Morbi aliquet, lacus eu ultricies faucibus, massa odio finibus ligula, vitae congue tellus justo quis enim. Nam hendrerit suscipit lectus, sed dictum ligula lobortis non. Pellentesque faucibus varius tempus.</p>
+	<p>
+		Tu aimes les jeux vidéos? <span class="surligne">Nous aussi</span>.<br/>
+		Que tu sois plutôt "Qui a deux petites minutes pour un Smash Bros?" ou "Qui a deux petites semaines pour un Civi?", le KI va vite devenir ton nouveau terrain de jeu.
+	</p>
 
-	<p>Proin dolor nisl, congue vitae nisi non, condimentum sodales eros. Mauris non imperdiet erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque id convallis libero. Cras ac malesuada lectus, at aliquam quam. Aliquam mollis sagittis rutrum. Cras ut volutpat tellus. Nulla facilisi. Vestibulum luctus tincidunt dolor, tincidunt scelerisque dolor sodales eu. Maecenas blandit malesuada volutpat. Aenean dapibus magna sed maximus condimentum. Ut pellentesque, ante id laoreet iaculis, velit quam ultrices dolor, id ullamcorper elit lorem at enim. Fusce molestie suscipit nisl nec tempor. Maecenas condimentum consequat sapien, sed ultricies nulla varius at. Morbi in commodo purus.</p>
+	<h2 class="sous-titre"><span>LA WII U</span></h2>
 
-	<p>Donec et velit non urna scelerisque viverra. Curabitur eros lacus, tempus vel vulputate et, suscipit sit amet risus. Fusce libero orci, imperdiet id felis eu, egestas vestibulum turpis. Morbi magna purus, pretium id dolor id, eleifend scelerisque dolor. Vestibulum efficitur, sem a tempus sodales, tortor quam iaculis nisi, in auctor erat purus et dolor. Sed tempor porta euismod. Proin euismod fringilla pharetra. Nulla sollicitudin sem eu erat lobortis porta. Curabitur facilisis ligula sit amet urna vehicula, sit amet gravida mi bibendum. Morbi efficitur erat a cursus tempus. Sed at ligula vel ante interdum molestie. In iaculis tincidunt metus nec consequat. Mauris maximus aliquet diam, eget gravida massa dictum vitae. Nulla vestibulum venenatis dignissim.</p>
+	<p>
+		Tel le lampadaire qui l'été attire, par ses lumières, tous les moustiques du voisinage, <span class="surligne">la Wii U de la salle P401</span> est en quelque sorte le phare de cette Ecole. 
+	</p>
 
-	<p>Duis at volutpat sapien, id dignissim neque. Nunc iaculis nulla ut magna sollicitudin, non blandit justo aliquet. Praesent convallis ac nibh at vulputate. Mauris mattis ultrices sapien vitae ultrices. Donec ornare in mauris sit amet aliquet. Phasellus tortor lectus, aliquet ac malesuada at, ultricies nec elit. Phasellus sit amet sagittis nisl. In at enim et eros dapibus dictum. Nullam vitae eros non arcu auctor tristique. Phasellus a arcu mollis, mattis lectus id, vulputate augue. Etiam bibendum diam quam, ut viverra risus gravida eu. In auctor massa vel quam ullamcorper venenatis.</p>
+	<img class="full-size" src="img/accueil/local.jpg" style=""/>
+
+	<p>
+		N'hésite pas à venir papillonner avec nous lorsque tu sens que la manette commence à te démanger. Tu es bien sûr invité à <span class="surligne">ramener tes jeux préférés</span>, mais le KI met déjà à ta disposition un certain nombre de classiques du genre, tels Mario Kart ou Smash Bros. <span class="akbar" style="font-size: 90%;">ou Just Dance </span><img src="img/lan/coeur.svg" style="height:1.1em;display:inline;position: relative; top: -0.2em;"/>
+	</p>
+
+	<h2 class="sous-titre"><span>LES SOIREES JEUX VIDEOS</span></h2>
+
+	<p>
+		Ah, la belle époque où les gamers, les vrais, se retrouvaient ensemble dans une même pièce avec des potes et des pizzas pour se donner des coups de main et de coude! <!-- <span class="akbar" style="font-size:90%;">(zeugma!)</span> -->
+	</p>
+
+	<p>
+		Si comme nous, tu trouves que ton reflet dans l'écran de l'ordinateur est devenu un tantinet prévisible à la longue, le KI organise <span class="surligne">une à deux fois par mois</span> des soirées dédiées entièrement au jeu vidéo. 
+	</p>
+
+	<p class="question">"On jouera à quels jeux? Je peux ramener les miens ?"</p>
+
+	<p>
+		Age of Empires II, Counter-Strike, Smash Bros... Peu importe le flacon, tant qu'il y a l'ivresse. <span class="surligne">Fais-nous partager tes coups de coeur</span>, éblouis-nous de tes plus belles découvertes, et rentre chez toi avec des idées plein la tête, des étoiles plein les yeux, et des bonbons plein le ventre.
+	</p>
+
+	<img class="full-size" src="img/accueil/local.jpg" style=""/>
 </div>
