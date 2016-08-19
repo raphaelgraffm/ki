@@ -17,7 +17,7 @@
 	<img class="full-size" src="img/accueil/local.jpg" style=""/>
 
 	<p>
-		N'hésite pas à venir papillonner avec nous lorsque tu sens que la manette commence à te démanger. Tu es bien sûr invité à <span class="surligne">ramener tes jeux préférés</span>, mais le KI met déjà à ta disposition un certain nombre de classiques du genre, tels Mario Kart ou Smash Bros. <span class="akbar" style="font-size: 90%;">ou Just Dance </span><img src="img/lan/coeur.svg" style="height:1.1em;display:inline;position: relative; top: -0.2em;"/>
+		N'hésite pas à venir papillonner avec nous lorsque tu sens que la manette commence à te démanger. Tu es bien sûr invité à <span class="surligne">ramener tes jeux préférés</span>, mais le KI met déjà à ta disposition un certain nombre de classiques du genre, tels Mario Kart ou Smash Bros. <!-- <span class="akbar" style="font-size: 90%;">ou Just Dance </span><img src="img/lan/coeur.svg" style="height:1.1em;display:inline;position: relative; top: -0.2em;"/> -->
 	</p>
 
 	<h2 class="sous-titre"><span>LES SOIREES JEUX VIDEOS</span></h2>

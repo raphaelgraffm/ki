@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" media="all" href="css/large/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>

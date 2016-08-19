@@ -17,6 +17,6 @@
 		"Cool. Et si j'ai besoin d'aide, je m'adresse où?"
 	</p>
 	<p>
-		Si même l'ami Google a jeté l'éponge et que tu en es réduit à redémarrer ton ordinateur en boucle en espérant que la 273e fois sera la bonne, tu peux nous envoyer un <a href="depannage.php" data-titre="Nous contacter - KI">petit message</a> pour nous expliquer le problème ou bien passer nous voir directement <span class="surligne">en salle P401</span>. Tu peux aussi venir si tu as envie d'un petit Smash Bros entre deux cours. Ou bien juste pour faire coucou. Nous ne sommes qu'amour. <span class="akbar">eT pizza.</span>
+		Si même l'ami Google a jeté l'éponge et que tu en es réduit à redémarrer ton ordinateur en boucle en espérant que la 273e fois sera la bonne, tu peux nous envoyer un <a href="depannage.php" data-titre="Nous contacter - KI">petit message</a> pour nous expliquer le problème ou bien passer nous voir directement <span class="surligne">en salle P401</span>. Tu peux aussi venir si tu as envie d'un petit Smash Bros entre deux cours. Ou bien juste pour faire coucou. Nous ne sommes qu'amour. <span class="akbar">et pizza.</span>
 	</p>
 </div>

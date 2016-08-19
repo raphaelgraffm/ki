@@ -641,8 +641,10 @@ main a:hover {
   color: #DF8A2A;
 }
 .akbar {
-  font-family: 'Akbar';
+  /*	font-family: 'Akbar';*/
+  font-family: 'Indie Flower', cursive;
   color: #D64A47;
+  font-size: 120%;
 }
 .surligne {
   background-color: #FFF8A9;
